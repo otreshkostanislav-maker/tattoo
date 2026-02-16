@@ -1,18 +1,18 @@
-import { Switch, Route } from "wouter";
+import { Switch, Route } from "react-router-dom";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import { LanguageProvider } from "@/context/LanguageContext";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
-import Home from "@/pages/Home";
-import Impressum from "@/pages/Impressum";
-import Datenschutz from "@/pages/Datenschutz";
-import NotFound from "@/pages/not-found";
+import { Toaster } from "react-hot-toast";
+import { LanguageProvider } from "./context/LanguageContext";
+import { LanguageSwitcher } from "@components/LanguageSwitcher";
+import { Home } from "@components/Home";
+import { Impressum } from "@components/Impressum";
+import { Datenschutz } from "@components/Datenschutz";
+import { NotFound } from "@components/NotFound";
 
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route path="/impressum" component={Impressum} />
       <Route path="/datenschutz" component={Datenschutz} />
       <Route component={NotFound} />
