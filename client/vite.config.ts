@@ -6,13 +6,13 @@ export default defineConfig({
   plugins: [react()],
   root: '.',
   publicDir: 'public',
-  base: '/',  // явно указываем корень
+  base: '/',  
   build: {
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, 'src/main.tsx')  // явно указываем entry main.tsx
+        main: path.resolve(__dirname, 'src/main.tsx')
       }
     }
   },
