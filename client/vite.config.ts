@@ -4,14 +4,15 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  root: '.', 
+  root: '.',
   publicDir: 'public',
+  base: '/',  // явно указываем корень
   build: {
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, 'index.html')
+        main: path.resolve(__dirname, 'src/main.tsx')  // явно указываем entry main.tsx
       }
     }
   },
