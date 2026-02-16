@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, ReactNode } from "react";
-import { translations } from "@/data/translations";
+import { translations } from "../data/translations";
 
 type Language = "en" | "ru" | "de";
 
