@@ -1,4 +1,4 @@
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "react-hot-toast";
@@ -32,10 +32,12 @@ function AppContent() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <LanguageProvider>
-        <Toaster />
-        <AppContent />
-      </LanguageProvider>
+      <BrowserRouter> {/* <--- ДОБАВИЛ ЭТО */}
+        <LanguageProvider>
+          <Toaster />
+          <AppContent />
+        </LanguageProvider>
+      </BrowserRouter>
     </QueryClientProvider>
   );
 }
