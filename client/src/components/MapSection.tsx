@@ -18,7 +18,7 @@ export default function MapSection() {
           {/* Map */}
           <div className="relative h-80 md:h-96 rounded-lg overflow-hidden border border-zinc-800">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2462.5!2d8.5334!3d52.0396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDAyJzIyLjYiTiA4wrAzMicwMC4yIkU!5e0!3m2!1sen!2sde!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2462.5!2d8.5572!3d52.0467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDAyJzQ4LjEiTiA4wrAzMycyNS45IkU!5e0!3m2!1sen!2sde!4v1708180800000""
               width="100%"
               height="100%"
               style={{ border: 0, filter: "grayscale(80%) invert(92%) contrast(90%)" }}
