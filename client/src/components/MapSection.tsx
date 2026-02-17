@@ -18,15 +18,16 @@ export default function MapSection() {
           {/* Map */}
           <div className="relative h-80 md:h-96 rounded-lg overflow-hidden border border-zinc-800">
             <iframe
-  src="https://www.openstreetmap.org/export/embed.html?bbox=8.5472%2C52.0367%2C8.5672%2C52.0567&layer=mapnik&marker=52.0467%2C8.5572"
+  src="https://maps.google.com/maps?q=Schildescher+Str.+94,+33611+Bielefeld,+Germany&output=embed"
   width="100%"
   height="100%"
-  style={{ border: 0, filter: "grayscale(100%) invert(100%)" }}
+  style={{ border: 0, filter: "grayscale(100%)" }}
   allowFullScreen
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"
   title="Syndicate Ink Lab Location"
 />
+
             <div className="absolute inset-0 pointer-events-none border border-blue-500/20 rounded-lg" />
           </div>
 
