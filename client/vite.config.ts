@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite'; // <--- ДОБАВЬ ИМПОРТ
+import tailwindcss from '@tailwindcss/vite'; // <--- ДОБАВЬ
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(),
+    tailwindcss(), // <--- ДОБАВЬ ЭТО
   ],
   base: '/',
   resolve: {
