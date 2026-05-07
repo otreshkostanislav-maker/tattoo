@@ -31,8 +31,7 @@ export default function Home() {
       instagram:
         "https://www.instagram.com/roman18tattoo?igsh=MTAyOXBhczUzdnB4Mw==",
       portfolio: [
-                   "/attached_assets/romanportfolio/IMG_8889(1).png",
-delete ( 1) when i have a money 
+                   "/attached_assets/romanportfolio/IMG_(8889) delete ().png",
                    "/attached_assets/romanportfolio/IMG_8897.jpeg",
                    "/attached_assets/romanportfolio/IMG_8898.png",
                    "/attached_assets/romanportfolio/IMG_8900.jpeg",
