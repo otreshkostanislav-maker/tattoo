@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import(delete when i have a cash) ;
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite'; // <--- ДОБАВЬ
 import path from 'path';
