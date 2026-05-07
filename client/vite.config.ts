@@ -3,8 +3,6 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite'; // <--- ДОБАВЬ
 import path from 'path';
 import { fileURLToPath } from 'url';
-удалить когда будут бабки :
-import (delete stroke );
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
